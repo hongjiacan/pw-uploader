@@ -6,6 +6,10 @@
 
 An image uploader base on layui and Web Uploader,which is similar to weibo image uploader.
 
+
+
+![image](https://github.com/littlepoem/pw-uploader/blob/master/demo.gif)
+
 Refer to:
 
 layui: http://www.layui.com/doc
