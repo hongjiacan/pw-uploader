@@ -7,6 +7,7 @@
 An image uploader base on layui and Web Uploader,which is similar to weibo image uploader.
 
 Refer to:
+
 layui: http://www.layui.com/doc
 
 Web Uploader: http://www.jq22.com/yanshi2665
