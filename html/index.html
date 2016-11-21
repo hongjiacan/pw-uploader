@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>仿微博图片上传</title>
+</head>
+<body>
+
+<div>
+
+	<input type="button" id="openLayerBtn" value="上传图片" 
+		style="margin-top: 100px; margin-left: 100px;" class="layui-btn layui-btn-primary">
+
+</div>
+
+
+<script src="jquery-2.1.0.min.js"></script>
+<link  href="pw-uploader/layui/css/layui.css" rel="stylesheet"/>
+<link  href="pw-uploader/webuploader/webuploader.css" rel="stylesheet"/>
+<script src="pw-uploader/layui/layui.js"></script>
+<script src="pw-uploader/webuploader/webuploader.js"></script>
+<script src="pw-uploader/pwUploader.js"></script>
+
+<script type="text/javascript">
+	
+	$(function(){
+
+        var offset = $('#openLayerBtn').offset();
+
+        pwUploader.init({
+            server: 'http://127.0.0.1:8080/xxx/demo/upload3',
+            swf: 'js/Uploader.swf',
+            picIds: 'picIds',
+            fileIds: 'fileIds',
+            openLayerBtn: 'openLayerBtn',
+            layerOffset:{
+                top:offset.top+$('#openLayerBtn').height,
+                left:offset.left
+            }
+        });
+    });
+	
+
+</script>
+</body>
+</html>

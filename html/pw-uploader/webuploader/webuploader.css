@@ -1,0 +1,99 @@
+#filePicker{
+	display: none;
+}
+.upload-layer{
+	display: none;
+}
+.upload-grid {
+	margin: 0px;
+}
+.upload-grid .upload-item {
+	list-style: none;
+	float: left;
+	margin-bottom: 5px;
+	position: relative;
+	padding: 1px 1px 1px 1px;
+	overflow: hidden;
+	width: 80px;
+	height: 80px;
+	margin-top: 5px;
+	margin-left: 5px;
+	box-sizing: border-box;
+}
+.upload-grid .add-item {
+	border: 2px dashed #ccc;
+}
+.upload-grid .add-item:hover {
+	border: 2px dashed #f06923;
+}
+.upload-grid .upload-item img {
+	line-height: 80px;
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+.upload-grid .upload-item a {
+	display: block;
+	font-size: 40px;
+	font-weight: bold;
+	color: #ccc;
+	margin-top: 11px;
+	text-align: center;
+	text-decoration: none;
+}
+.upload-item .upload-thumbnail:hover> span{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: rgba(255,255,255,0.6);
+	cursor: all-scroll;
+}
+.upload-item .upload-thumbnail>span:hover{
+	display: block;
+}
+.upload-item .upload-thumbnail:hover>i{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+.upload-item .upload-thumbnail>i:hover{
+	display: block;
+}
+.upload-item .upload-thumbnail i:hover{
+	cursor: pointer;
+	background: rgba(255,255,255,0.4);
+}
+
+
+.webuploader-container {
+	position: relative;
+}
+.webuploader-element-invisible {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px,1px,1px,1px);
+}
+.webuploader-pick {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	background: #00b7ee;
+	padding: 10px 15px;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.webuploader-pick-hover {
+	background: #00a2d4;
+}
+
+.webuploader-pick-disable {
+	opacity: 0.6;
+	pointer-events:none;
+}
