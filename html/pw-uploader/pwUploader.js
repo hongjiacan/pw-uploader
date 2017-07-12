@@ -195,7 +195,7 @@ var pwUploader = {
             accept: {
                 title: 'Images',
                 extensions: 'gif,jpg,jpeg,bmp,png',
-                mimeTypes: 'image/*'
+                mimeTypes: 'image/jpg,image/jpeg,image/png,image/gif'
             },
 
             fileNumLimit: 9,
